@@ -22,8 +22,6 @@
 | `mjpeg_steel_ball_server.py` | 钢球检测、MJPEG 预览和 H.264 测试录像 |
 | `main.py` | 上电自动启动 `mjpeg_steel_ball_server.py` |
 | `center.cfg`、`PLUS.cfg`、`Minus.cfg` | 机械中心及正负位置标定参数 |
-| `examples/` | CanMV K230 示例程序、模型和测试资源 |
-| `Video/` | 实验图片和视频 |
 
 ## 快速开始
 
@@ -74,6 +72,8 @@ POS,NA
 
 - 固件镜像和安装程序
 - `tmp/` 中的依赖缓存
+- `Video/` 中的实验图片和视频
+- `examples/` 中的 CanMV 示例、模型和测试资源
 - 本地 Wi-Fi 凭据与环境文件
 - 板端本地文件 `steel_ball.py` 和 `steel_ball.kmodel`
 
