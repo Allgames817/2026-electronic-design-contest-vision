@@ -1,0 +1,33 @@
+# Local toolchains, installers, firmware images, and dependency caches
+/tmp/
+/CanMV_K230_V3P0_micropython_v1.8-0-gc2d1f5c_nncase_v2.11.0.img/
+/Video/
+/examples/
+*.exe
+*.img
+*.whl
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Keep these board-local steel-ball files out of GitHub
+/steel_ball.kmodel
+/steel_ball.py
